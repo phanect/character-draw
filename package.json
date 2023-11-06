@@ -1,0 +1,20 @@
+{
+  "name": "character-draw",
+  "version": "0.0.1",
+  "description": "Create your original character without drawing them by yourselves",
+  "author": "Jumpei Ogawa (https://phanective.org)",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --ext=.js,.jsx,.ts,.tsx,.vue,.json ."
+  },
+  "devDependencies": {
+    "eslint-config-phanective": "latest",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": ">=10.x"
+  }
+}

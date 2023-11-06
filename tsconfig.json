@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": false,
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "newLine": "lf",
+    "target": "es2017",
+    "outDir": "./dist",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "strict": true
+  },
+  "include": [ "**/*.ts" ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
