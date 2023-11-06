@@ -13,4 +13,12 @@ module.exports = {
   parserOptions: {
     project: join(__dirname, "./tsconfig.json"),
   },
+  overrides: [
+    {
+      files: "**/vite-env.d.ts",
+      rules: {
+        "spaced-comment": "off",
+      },
+    },
+  ],
 };

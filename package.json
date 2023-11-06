@@ -7,11 +7,14 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
     "lint": "eslint --ext=.js,.jsx,.ts,.tsx,.vue,.json ."
   },
   "devDependencies": {
     "eslint-config-phanective": "latest",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
   },
   "engines": {
     "node": "20.x",
